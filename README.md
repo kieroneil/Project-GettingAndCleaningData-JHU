@@ -26,3 +26,28 @@ You should create one R script called run_analysis.R that does the following.
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Good luck!
 
+########################################################
+# My approach to data arrangement...
+########################################################
+# Create empty environment
+# Get activity names from features.txt
+# Load libraries
+# Get Feature names and format them to insert as colNames
+# Take care of those duplicate variable names
+# Get the Train data
+# Get the Test data
+# Bind Train and Test sets together
+#  WHOO HOO!!!  We've got a tidy full data set
+#  This completes step 1:  Merges the train and test sets to create one data set.
+# Step 2:  Extracts only the measurements on the mean
+#          and standard deviation for each measurement.
+# Step 3:  Uses descriptive activity names to name the 
+#          activities in the data set
+# Get Activity names to replace in data sets
+# Get Activity and Subject Data
+# Combine activity and subject the same way as above; trn then tst
+# Create full data set of activities, subjects, and data
+# Merge in the activity names to full data set using inner.join
+# Group by activity and subject, then calculate the means of each variable
+# Print data from step two
+# Print data from step 5
